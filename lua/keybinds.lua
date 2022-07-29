@@ -10,3 +10,4 @@ keymap('n', '<c-l>', '<c-w>l', opts)
 keymap('n', '<Return>', ':nohlsearch<cr>', opts)
 keymap('n', '<s-Enter>', 'o<ESC>', opts)
 keymap('n', 'zq', 'zO', opts)
+
