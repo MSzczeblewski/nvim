@@ -32,10 +32,10 @@ end)
 --vim.lsp.handlers["textDocument/publishDiagnostics"] = function() end
 
 --This removes error underlining, highlighting and gutters
-vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
-    vim.lsp.diagnostic.on_publish_diagnostics, {
-    virtual_text = false,
-    underline = false,
-    signs = false
+--vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+--    vim.lsp.diagnostic.on_publish_diagnostics, {
+--    virtual_text = false,
+--    underline = false,
+--    signs = false
 }
 )
