@@ -1,3 +1,4 @@
+vim.g.mapleader = ' '
 local keymap = vim.api.nvim_set_keymap
 keymap('n', '<c-s>', ':w<CR>', {})
 keymap('i', '<c-s>', '<Esc>:w<CR><Esc>', {})
