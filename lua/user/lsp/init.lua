@@ -3,6 +3,6 @@ if not status_ok then
 	return
 end
 
-require("user.lsp.lsp-installer")
+require("user.lsp._lspinstaller")
 --Removing all configuration for now need to figure this out later
 --require("user.lsp.lsp-handlers").setuphandlers()

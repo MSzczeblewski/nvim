@@ -44,7 +44,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used in lots of plugins
-  
+
   -- Color Scheme
   use "tomasr/molokai" -- Color theme
 
@@ -59,13 +59,21 @@ return packer.startup(function(use)
   use "L3MON4D3/LuaSnip" --snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
-  -- Lua
+  -- LSP
   use "neovim/nvim-lspconfig" -- core lsp functionality for nvim
   use "williamboman/nvim-lsp-installer" -- an installer for language servers
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
+  use "BurntSushi/ripgrep" -- Needed for grep feature
+  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+
+  -- Treesitter
+  use {
+      "nvim-treesitter/nvim-treesitter",
+      run = ":TSUpdate",
+  }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
