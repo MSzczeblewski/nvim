@@ -69,6 +69,9 @@ return packer.startup(function(use)
   use "BurntSushi/ripgrep" -- Needed for grep feature
   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 
+  --Bufferline
+  use "akinsho/bufferline.nvim"
+
   -- Treesitter
   use {
       "nvim-treesitter/nvim-treesitter",

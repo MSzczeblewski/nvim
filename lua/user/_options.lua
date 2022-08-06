@@ -26,7 +26,7 @@ vim.opt.number = true -- set numbered lines
 vim.opt.relativenumber = false -- set relative numbered lines
 vim.opt.numberwidth = 4 -- set number column width to 2 {default 4}
 vim.opt.wrap = false -- display lines as one long line
-vim.opt.scrolloff = 16 -- is one of my fav
+vim.opt.scrolloff = 16 -- distance between cursor and top/bottom of screen before it scrolls 
 vim.opt.sidescrolloff = 8
 --vim.opt.guifont = "monospace:h17" -- the font used in graphical neovim applications
 
