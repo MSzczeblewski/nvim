@@ -7,6 +7,7 @@ require "user._telescope"
 require "user._bufferline"
 --require "user.lsp"
 
+-- Treesitter folding
 --vim.wo.foldmethod = "expr"
 --vim.wo.foldexpr = "nvim_treesitter#foldexpr()"
 
