@@ -35,7 +35,7 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Close buffer 
-keymap("n", "<leader>q", ":bp<bar>sp<bar>bn<bar>bd<CR>:", opts)
+keymap("n", "<leader>q", ":bp<bar>sp<bar>bn<bar>bd<CR>:<CR>", opts)
 
 -- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
